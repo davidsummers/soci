@@ -10,7 +10,7 @@
 ###############################################################################
 # General settings
 ###############################################################################
-cmake_minimum_required(VERSION 2.8.10 FATAL_ERROR)
+cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 
 project(SOCI)
 
@@ -54,7 +54,7 @@ boost_report_value(SOCI_TESTS)
 boost_report_value(SOCI_ASAN)
 
 # from SociConfig.cmake
-boost_report_value(SOCI_CXX_C11)
+boost_report_value(SOCI_CXX11)
 boost_report_value(LIB_SUFFIX)
 
 # Put the libaries and binaries that get built into directories at the
